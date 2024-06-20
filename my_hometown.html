@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Hometown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d7a3c7;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .nav > * {
+            margin: 5px;
+        }
+
+        .nav a, .nav .dropdown {
+            color: #8b3a62;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #d7a3c7;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            flex: 1;
+            max-width: 150px; /* Adjust the width as needed */
+            box-sizing: border-box;
+        }
+
+        .nav a:hover, .nav .dropdown:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d7a3c7;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            top: 100%; /* Align the dropdown below the parent */
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease;
+        }
+
+        .dropdown-content a {
+            color: #8b3a62;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            top: calc(100% + 5px);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        marquee {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/biodata.html">Biodata</a>                
+                <a href="file:///C:/Users/User/Desktop/HTML254/hobbies.html">My Hobbies</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20goal.html">My Goal</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">MY JOURNEY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20primary%20school.html">My Primary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20secondary%20school.html">My Secondary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/university3.html">University</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">GALLERY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_family.html">My Family</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_friends.html">My Friends</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/eid%20al-fitr.html">Eid al-Fitr</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">PLACE</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_hometown.html">My Hometown</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">HOME</a>
+    </nav>
+    <div class="content">
+        <!-- Your content here -->
+    </div>
+
+<body style="background-color:#d1d1d1">
+
+<style> 
+body { 
+  background-image: url; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+} 
+
+div.my_hometown { 
+  border: 1px solid #ccc; 
+} 
+ 
+div.my_hometown:hover { 
+  border: 1px solid #777; 
+} 
+ 
+div.my_hometown { 
+  width: 100%; 
+  height: 250px;  
+  object-fit: cover;  
+} 
+ 
+div.desc { 
+  padding: 15px; 
+  text-align: center; 
+} 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+.responsive { 
+  padding: 0 6px; 
+  float: left; 
+  width: 24.99999%; 
+} 
+ 
+@media only screen and (max-width: 300px) { 
+  .responsive { 
+    width: 49.99999%; 
+    margin: 6px 0; 
+  } 
+} 
+ 
+@media only screen and (max-width: 30px) { 
+  .responsive { 
+    width: 50%; 
+  } 
+} 
+ 
+.clearfix:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} 
+</style> 
+</head> 
+<body> 
+
+<style>
+img  {
+     border-style:solid;
+     border-color:grey;
+}
+</style>
+
+<h1 style="background-color:lightcoral; font-family:broadway; text-align:center;">This is my hometown</h1>
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509353.61116261553!2d102.99252545776413!3d4.156338978135558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c88fa8c3f196e5%3A0x3b7c3c4fcb8fc55e!2sChukai%2C%20Terengganu!5e0!3m2!1sen!2smy!4v1717479081112!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+</style>
+
+</body>
+</html>

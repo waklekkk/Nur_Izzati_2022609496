@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d7a3c7;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .nav > * {
+            margin: 5px;
+        }
+
+        .nav a, .nav .dropdown {
+            color: #8b3a62;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #d7a3c7;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            flex: 1;
+            max-width: 150px; /* Adjust the width as needed */
+            box-sizing: border-box;
+        }
+
+        .nav a:hover, .nav .dropdown:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d7a3c7;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            top: 100%; /* Align the dropdown below the parent */
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease;
+        }
+
+        .dropdown-content a {
+            color: #8b3a62;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            top: calc(100% + 5px);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        marquee {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/biodata.html">Biodata</a>                
+                <a href="file:///C:/Users/User/Desktop/HTML254/hobbies.html">My Hobbies</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20goal.html">My Goal</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">MY JOURNEY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20primary%20school.html">My Primary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20secondary%20school.html">My Secondary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/university3.html">University</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">GALLERY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_family.html">My Family</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_friends.html">My Friends</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/eid%20al-fitr.html">Eid al-Fitr</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">PLACE</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_hometown.html">My Hometown</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">HOME</a>
+    </nav>
+    <div class="content">
+        <!-- Your content here -->
+    </div>
+
+<body style="background-color:#d1d1d1">
+
+<style> 
+body { 
+  background-image: url; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+} 
+
+div.my_family { 
+  border: 1px solid #ccc; 
+} 
+ 
+div.my_family:hover { 
+  border: 1px solid #777; 
+} 
+ 
+div.my_family { 
+  width: 100%; 
+  height: 250px;  
+  object-fit: cover;  
+} 
+ 
+div.desc { 
+  padding: 15px; 
+  text-align: center; 
+} 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+.responsive { 
+  padding: 0 6px; 
+  float: left; 
+  width: 24.99999%; 
+} 
+ 
+@media only screen and (max-width: 300px) { 
+  .responsive { 
+    width: 49.99999%; 
+    margin: 6px 0; 
+  } 
+} 
+ 
+@media only screen and (max-width: 30px) { 
+  .responsive { 
+    width: 50%; 
+  } 
+} 
+ 
+.clearfix:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} 
+</style> 
+</head> 
+<body> 
+
+<style>
+img  {
+     border-style:solid;
+     border-color:brown;
+}
+</style>
+
+<h2 style="font-family:Times New Roman; color:#2F4F4F2;">Me with my family:</h2> 
+<p>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="aboh2.jpg"> 
+      <center><img src="aboh2.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <center>
+    <div class="desc">My father when young</center></div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="aboh.jpg"> 
+      <center><img src="aboh.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">My father now</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="young.jpg"> 
+      <center><img src="young.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">My mother when young</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="umi.jpg"> 
+      <center><img src="umi.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">My mother now</div> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+<p>
+</p>
+<p>
+</p>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="brother.jpg"> 
+      <center><img src="brother.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">My brother</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="me.jpg"> 
+      <center><img src="me.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">Me</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="tiga.jpg"> 
+      <center><img src="tiga.jpg" alt="With Family" width="200" height="230"></center> 
+    </a> 
+    <div class="desc">My younger siblings</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="homestay.jpg"> 
+      <img src="homestay.jpg" alt="With Family" width="230" height="200"> 
+    </a> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+<p>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="homestayy.jpg"> 
+      <img src="homestayy.jpg" alt="With Family" width="230" height="200"> 
+    </a> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="merdeka.jpg"> 
+      <img src="merdeka.jpg" alt="With Family" width="230" height="200"> 
+    </a> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar6.jpg"> 
+      <img src="gambar6.jpg" alt="With Family" width="200" height="200"> 
+    </a> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar5.jpg"> 
+      <img src="gambar5.jpg" alt="With Family" width="200" height="200"> 
+    </a> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+<p>
+</p>
+<br>
+
+<div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar1.jpg"> 
+      <img src="gambar1.jpg" alt="With Family" width="250" height="250"> 
+    </a> 
+  </div> 
+</div><div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar2.jpg"> 
+      <img src="gambar2.jpg" alt="With Family" width="280" height="250"> 
+    </a> 
+  </div> 
+</div><div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar3.jpg"> 
+      <img src="gambar3.jpg" alt="With Family" width="250" height="230"> 
+    </a> 
+  </div> 
+</div><div class="responsive"> 
+  <div class="My Family"> 
+     <a target="_blank" href="gambar4.jpg"> 
+      <img src="gambar4.jpg" alt="With Family" width="200" height="250"> 
+    </a> 
+  </div> 
+
+
+
+
+</body>
+</html>
+

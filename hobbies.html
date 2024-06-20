@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Hobbies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d7a3c7;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .nav > * {
+            margin: 5px;
+        }
+
+        .nav a, .nav .dropdown {
+            color: #8b3a62;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #d7a3c7;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            flex: 1;
+            max-width: 150px; /* Adjust the width as needed */
+            box-sizing: border-box;
+        }
+
+        .nav a:hover, .nav .dropdown:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d7a3c7;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            top: 100%; /* Align the dropdown below the parent */
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease;
+        }
+
+        .dropdown-content a {
+            color: #8b3a62;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #b38f95;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            top: calc(100% + 5px);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        marquee {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">ABOUT ME</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/biodata.html">Biodata</a>                
+                <a href="file:///C:/Users/User/Desktop/HTML254/hobbies.html">My Hobbies</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20goal.html">My Goal</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="file:///C:/Users/User/Desktop/HTML254/index.html">MY JOURNEY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20primary%20school.html">My Primary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my%20secondary%20school.html">My Secondary School</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/university3.html">University</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">GALLERY</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_family.html">My Family</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_friends.html">My Friends</a>
+                <a href="file:///C:/Users/User/Desktop/HTML254/eid%20al-fitr.html">Eid al-Fitr</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">PLACE</a>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/User/Desktop/HTML254/my_hometown.html">My Hometown</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <a href="file:///C:/Users/User/Desktop/HTML254/index.html">HOME</a>
+    </nav>
+    <div class="content">
+        <!-- Your content here -->
+    </div>
+
+<body style="background-color:#FED7C3">
+
+<style> 
+body { 
+  background-image: url; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+} 
+
+div.my hobbies { 
+  border: 1px solid #ccc; 
+} 
+ 
+div.my hobbies:hover { 
+  border: 1px solid #777; 
+} 
+ 
+div.my hobbies { 
+  width: 100%; 
+  height: 250px;  
+  object-fit: cover;  
+} 
+ 
+div.desc { 
+  padding: 15px; 
+  text-align: center; 
+} 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+.responsive { 
+  padding: 0 6px; 
+  float: left; 
+  width: 24.99999%; 
+} 
+ 
+@media only screen and (max-width: 300px) { 
+  .responsive { 
+    width: 49.99999%; 
+    margin: 6px 0; 
+  } 
+} 
+ 
+@media only screen and (max-width: 30px) { 
+  .responsive { 
+    width: 50%; 
+  } 
+} 
+ 
+.clearfix:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} 
+</style> 
+</head> 
+<body> 
+
+<style>
+img  {
+     height:250px;
+     width:250px;
+     border-style:solid;
+     border-color:blue;
+}
+</style>
+ 
+<h3 style="font-family:Times New Roman; color:#2F4F4F2;">MY BOOK:</h3> 
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="wattpad.jpg"> 
+      <img src="wattpad.jpg" alt="Wattpad" width="100" height="100"> 
+    </a> 
+    <div class="desc">Aplikasi Online</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="serunaimaut.jpg"> 
+      <img src="serunaimaut.jpg" alt="Serunai Maut" width="200" height="200"> 
+    </a> 
+    <div class="desc">Serunai Maut</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="novelchot.jpeg"> 
+      <img src="novelchot.jpeg" alt="Novel Chot" width="200" height="200"> 
+    </a> 
+    <div class="desc">Novel Chot-Azizi bin Haji Abdullah</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="novelfleur.jfif"> 
+      <img src="novelfleur.jfif" alt="Novel Fleur" width="200" height="200"> 
+    </a> 
+    <div class="desc">Novel Fleur-Nurail Irmela</div>
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="novelimpian.jfif"> 
+      <img src="novelimpian.jfif" alt="Novel Impian" width="200" height="200"> 
+    </a> 
+    <div class="desc">Novel Impian-Teme Abdullah</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="novelalpha.jpg"> 
+      <img src="novelalpha.jpg" alt="Novel Alpha" width="200" height="200"> 
+    </a> 
+    <div class="desc">Novel Alpha-Nur Izzah Hani</div> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+<h3 style="font-family:Times New Roman; color:#2F4F4F2;">MY ACTIVITIES:</h3> 
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="congkak.jpg"> 
+      <img src="congkak.jpg" alt="Congkak" width="200" height="200"> 
+    </a> 
+    <div class="desc">Congkak</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="badminton.jpg"> 
+      <img src="badminton.jpg" alt="Badminton" width="200" height="200"> 
+    </a> 
+    <div class="desc">Badminton</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="hiking.jpg"> 
+      <img src="hiking.jpg" alt="Hiking" width="200" height="200"> 
+    </a> 
+    <div class="desc">Hiking</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="sunrise.jpg"> 
+      <img src="sunrise.jpg" alt="Sunrise" width="200" height="200"> 
+    </a> 
+    <div class="desc">Sunrise</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="sunset.jpg"> 
+      <img src="sunset.jpg" alt="Sunset" width="200" height="200"> 
+    </a> 
+    <div class="desc">Sunset</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="scenery.jpg"> 
+      <img src="scenery.jpg" alt="Scenery" width="200" height="200"> 
+    </a> 
+    <div class="desc">Scenery</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="scenery2.jpg"> 
+      <img src="scenery2.jpg" alt="Scenery 2" width="200" height="200"> 
+    </a> 
+    <div class="desc">Scenery 2</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="scenery3.jpg"> 
+      <img src="scenery3.jpg" alt="Scenery 3" width="200" height="200"> 
+    </a> 
+    <div class="desc">Scenery 3</div> 
+</div>
+  </div> 
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="scenery4.jpg"> 
+      <img src="scenery4.jpg" alt="Scenery 4" width="400" height="400"> 
+    </a> 
+    <div class="desc">Scenery 4</div> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+<h3 style="font-family:Times New Roman; color:#2F4F4F2;">MY GAMES:</h3> 
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="dr.driving.jpg"> 
+      <img src="dr.driving.jpg" alt="Dr. Driving" width="200" height="200"> 
+    </a> 
+    <div class="desc">Dr. Driving</div> 
+  </div> 
+</div>
+
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="pubg.jpg"> 
+      <img src="pubg.jpg" alt="PUBG" width="200" height="200"> 
+    </a> 
+    <div class="desc">PUBG</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="words.jpg"> 
+      <img src="words.jpg" alt="Words of Wonders:Crossword " width="200" height="200"> 
+    </a> 
+    <div class="desc">Words of Wonders:Crossword </div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="run.jpg"> 
+      <img src="run.jpg" alt="Fun Run 3 " width="200" height="200"> 
+    </a> 
+    <div class="desc">Fun Run 3 </div> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+<h3 style="font-family:Times New Roman; color:#2F4F4F2;">MY SONG:</h3> 
+
+<style>
+video  {
+     height:250px;
+     width:250px;
+     border-style:solid;
+     border-color:black;
+}
+</style>
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="Nuru Nebi.mp4"> 
+      <video src="Nuru Nebi.mp4" controls alt="Nuru Nebi" width="200" height="200"></video> 
+    </a> 
+    <div class="desc">Nuru Nebi (Turkish)-Maher Zain</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="Kun Anta.mp4"> 
+      <video src="Kun Anta.mp4" controls alt="Kun Anta" width="200" height="200"></video> 
+    </a> 
+    <div class="desc">Kun Anta-Humood Alkhudher</div> 
+  </div> 
+</div>
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="Good Life.mp4"> 
+      <video src="Good Life.mp4" controls alt="Good Life" width="200" height="200"></video> 
+    </a> 
+    <div class="desc">Good Life-Harris J</div> 
+  </div> 
+</div>
+
+
+<div class="responsive"> 
+  <div class="my hobbies"> 
+     <a target="_blank" href="Nintama Rantaro Opening.mp4"> 
+      <video src="Nintama Rantaro Opening.mp4" controls alt="Nintama Rantaro Opening" width="200" height="200"></video> 
+    </a> 
+    <div class="desc">Nintama Rantaro Opening</div> 
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+
+
+</body>
+</html>
+
